@@ -1,12 +1,22 @@
 # SecondWaveOS
 
-SecondWaveOS is a lightweight, modular operating system designed for personal, non-commercial use. It aims to provide users with a secure and customizable OS experience.
+Turn any old Android phone into a plug-and-play personal cloud: headless setup via USB-C, prebuilt device
+images, a friendly desktop installer, global HTTPS access via outbound tunnels, and simple public file sharing
+links — no router changes required.
+
+SecondWaveOS breathes new life into obsolete or damaged‑but‑functional smartphones — transforming them into headless, personal cloud servers that are private, secure, and easy to set up.
+Built for privacy-conscious individuals, small teams, and makers, it’s designed to be as simple as plugging in via USB‑C and following a quick first‑boot wizard.
 
 ## Features
 
-- Modular and extensible architecture
-- Focus on security and privacy
-- Optimized for personal use and experimentation
+- Device Recycling: Repurpose Android smartphones into always‑on personal servers
+- Headless Setup: Configure devices via USB‑C or temporary hotspot — no screen required
+- Global Access: Outbound tunnels with Cloudflare Tunnel / Tailscale / ZeroTier
+- File Sharing & Sync: Public share links with passwords and expiry dates
+- Secure By Default: HTTPS, RBAC, fail2ban, optional full‑disk encryption
+- Quick Install: Prebuilt device images and automated flasher
+- Extendable: Simple plugin system with Go, Node.js, or Python SDK
+- OTA Updates: Automatic and manual package updates from central repo
 
 ## Getting Started
 
